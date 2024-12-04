@@ -1,3 +1,4 @@
+
 header {
     background-color: #FFFFFF;
 }
@@ -25,6 +26,8 @@ nav.flex {
 }
 
 /* start main */
+
+/* prima section */
 section.full-color {
     background-color: aqua;
 
@@ -32,11 +35,35 @@ section.full-color {
 .container-80 {
     width: 80%;
     margin: 0 auto;
+    padding: 30px;
 }
 .box__jumbo {
     display: flex;
-    padding: 30px;
 }
-div.container-80 > h1 {
-    padding: 30px
+
+/* seconda section */
+.cards__container {
+    display: flex;
+    gap: 40px;
+    height: 700px;
+}
+
+.card {
+    height: 500px;
+    flex-basis: calc(100% / 3 );
+    border: 2px solid black;
+
+}
+.card__title {
+    text-align: center;
+}
+
+.card__content {
+    d
+}
+
+
+.card__content-box {
+    /* padding-inline: 20px;
+    margin-block: 20px; */
 }
