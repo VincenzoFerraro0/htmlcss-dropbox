@@ -23,3 +23,26 @@ nav.flex {
 .menu-list {
     gap: 30px;
 }
+
+/* start main */
+section {
+    background-color: #B3CFE6;
+    height: 400px;
+}
+
+.container-80 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.box__flex-end {
+    display: flex;
+    
+}
+
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
