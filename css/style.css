@@ -25,24 +25,18 @@ nav.flex {
 }
 
 /* start main */
-section {
-    background-color: #B3CFE6;
-    height: 400px;
-}
+section.full-color {
+    background-color: aqua;
 
+}
 .container-80 {
     width: 80%;
     margin: 0 auto;
 }
-
-.box__flex-end {
+.box__jumbo {
     display: flex;
-    
+    padding: 30px;
 }
-
-
-.flex-column {
-    display: flex;
-    flex-direction: column;
+div.container-80 > h1 {
+    padding: 30px
 }
-
