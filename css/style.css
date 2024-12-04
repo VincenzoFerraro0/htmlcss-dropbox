@@ -56,14 +56,12 @@ section.full-color {
 }
 .card__title {
     text-align: center;
-}
 
-.card__content {
-    d
 }
 
 
 .card__content-box {
-    /* padding-inline: 20px;
-    margin-block: 20px; */
+    padding-inline: 20px;
+    margin-block: 20px;
+  
 }
