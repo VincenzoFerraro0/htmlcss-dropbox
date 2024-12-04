@@ -1,0 +1,19 @@
+/* Azzera tutti i valori di default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+img {
+    display: block;
+}
+html {
+    font-family: sans-serif;
+}
