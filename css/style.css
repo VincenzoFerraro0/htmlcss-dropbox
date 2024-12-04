@@ -1,0 +1,25 @@
+header {
+    background-color: #FFFFFF;
+}
+
+header {
+    padding-block: 15px;
+}
+
+.flex {
+    display: flex;
+}
+
+
+nav.flex {
+   justify-content: space-between;
+   margin-inline: 10px;
+}
+.box__menu__left,
+.box__menu__right {
+    gap: 20px;
+}
+
+.menu-list {
+    gap: 30px;
+}
