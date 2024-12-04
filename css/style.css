@@ -42,6 +42,10 @@ section.full-color {
 }
 
 /* seconda section */
+hr{
+    border: 1px solid black;
+} 
+
 .cards__container {
     display: flex;
     gap: 40px;
@@ -51,7 +55,7 @@ section.full-color {
 .card {
     height: 500px;
     flex-basis: calc(100% / 3 );
-    border: 2px solid black;
+    border: 1px solid black;
 
 }
 .card__title {
@@ -63,5 +67,4 @@ section.full-color {
 .card__content-box {
     padding-inline: 20px;
     margin-block: 20px;
-  
 }
