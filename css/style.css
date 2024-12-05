@@ -164,7 +164,26 @@ justify-content: space-between;
 .card-large-btn{
     display: flex;
     flex-direction: column;
+
 }
+
 /* quarta section  */
+
+.section-partner {
+    margin-block: 20px;
+    padding-block: 25px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    
+
+}
+
+.partner-text {
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+}
+
 
 
