@@ -101,7 +101,17 @@ header nav {
     margin-block: 20px ;
 
 }
+.box-radio{
 
+}
+
+
+input[type='radio']  {
+margin: 10px 5px;
+padding: 5px 0 0px 5px;
+cursor: pointer;
+
+}
 /* terza section */
 
 /* contenitore card  */
