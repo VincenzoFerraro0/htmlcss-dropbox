@@ -42,7 +42,17 @@ header nav {
     background-color: var(--color_btn);
     color: white;
 }
-/* start main */
+
+.btn--blue:hover {
+    background-color: rgba(165, 201, 255, 0.716);
+    color: #000000;
+}
+
+
+.btn__large {
+    padding: 10px 20px;  
+
+}
 
 /* prima section */
 .jumbo {
@@ -86,8 +96,6 @@ header nav {
 }
 
 
-
-
 /* seconda section */
 .container-80 {
     max-width: 80%;
@@ -104,7 +112,6 @@ header nav {
 .box-radio{
 
 }
-
 
 input[type='radio']  {
 margin: 10px 5px;
@@ -126,27 +133,41 @@ cursor: pointer;
 .business__plane__card {
     flex-basis: calc(100% / 3 - 20px);
     flex-grow: 1;
-    border: 1px solid black ;
-    /* height: 500px; */
     
 }
 
+.border-gray {
+    border: 2px solid lightgray; 
+}
+.business__plane__card .fa-check {
+    color: var(--color_btn);
+}
 /* nome piano  */
 .card-name {
     padding: 10px;
     text-align: center;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid lightgray;
 }
 
 .card-top {
     padding: 20px;
     
 }
+
 .card-bottom {
     padding: 20px;
     display: flex; 
     flex-direction: column;
     gap: 20px;
+}
+.card-bottom hr {
+    width: 25%;
+    border: 1px solid lightgrey;
+}
+
+.card-bottom p a {
+   text-decoration:underline;
+   color: var(--color_btn);
 }
 
 .card-bottom > ul {
@@ -166,14 +187,21 @@ justify-content: space-between;
 
 .card-large-column {
     display: flex;
+    gap: 10px;
 
 }
 .card-large div p:last-child{
-    margin-top: 20px;
+    margin-top: 30px;
 
 }
+
+.card-large > div p:nth-last-child(2){
+    margin-top: 10px;
+}
+
 .card-large div {
-    flex-basis: 70%;
+    flex-basis: 68%;
+    
 }
 .card-large div:last-child {
     flex-basis: 30%;
@@ -199,18 +227,26 @@ justify-content: space-between;
     align-items: center;
 }
 
-.partner-text {
- display: flex;
- flex-direction: column;
- gap: 10px;
+
+.partner-text h3 + p  {
+margin-top: 10px;
+margin-bottom: 30px;
 }
+
+.partner-text a {
+    color: lightgray;
+}
+
+
+
 
 /* quinta section */
 .feature-cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 10px;
+    gap: 10px ;
+
 
 }
 
@@ -218,6 +254,14 @@ justify-content: space-between;
     flex-basis: calc(100% / 3 - 10px);
 }
 
+/* sesta section */
+.teeam {
+    margin-block: 40px ;
+}
+
+.teeam p{
+    margin-top: 20px;
+}
 /* start footer  */
 
 footer {
