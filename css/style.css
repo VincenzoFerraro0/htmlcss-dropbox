@@ -1,4 +1,6 @@
-
+:root {
+    --color_btn: blue;
+}
 
 header {
     background-color: #FFFFFF;
@@ -9,23 +11,34 @@ header {
 
 }
 
-.flex {
+header nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 10px;
 }
 
-
-nav.flex {
-   justify-content: space-between;
-   margin-inline: 10px;
-}
 .box__menu__left,
-.box__menu__right {
+.box__menu__right,
+.menu-list {
+    display: flex;
+    align-items: center;
     gap: 20px;
 }
 
-.menu-list {
-    gap: 30px;
+.menu-list li a {
+    color: black;
 }
+
+.btn {
+    padding: 10px 20px;  
+}
+.btn--blue {
+    background-color: var(--color_btn);
+    color: white;
+}
+
+
 
 /* start main */
 
