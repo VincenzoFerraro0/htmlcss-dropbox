@@ -31,7 +31,7 @@ header nav {
 }
 
 .btn {
-    padding: 10px 20px;  
+    padding: 10px 15px;  
 }
 .btn--blue {
     background-color: var(--color_btn);
@@ -75,4 +75,16 @@ header nav {
 }
 .jumbo-img {
     flex-basis: 70%;
+}
+/* seconda section */
+.container-80 {
+    max-width: 80%;
+    margin: 0 auto ;
+}
+.business_content {
+    margin-top: 20px;
+}
+.business_content > div {
+    margin-block: 20px ;
+
 }
