@@ -1,5 +1,7 @@
 :root {
-    --color_btn: blue;
+    --color_btn: #0161FD;
+    --color_main: #FFFFFF ;
+    --color_footer: #000000;
 }
 html {
     line-height: 160%;
@@ -186,7 +188,6 @@ justify-content: space-between;
  gap: 10px;
 }
 
-
 /* quinta section */
 .feature-cards {
     display: flex;
@@ -200,4 +201,33 @@ justify-content: space-between;
     flex-basis: calc(100% / 3 - 10px);
 }
 
+/* start footer  */
 
+footer {
+    background-color: var(--color_footer);
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+
+.footer-menu {
+    padding-block: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu div ul li a {
+    color: white;
+} 
+
+/* footer language */
+#hr_footer {
+
+    width: 20%;
+    border: 1px solid white;
+}
+.language {
+    padding-block: 20px;
+    display: flex ;
+    align-items: center;
+    gap: 10px;
+}
