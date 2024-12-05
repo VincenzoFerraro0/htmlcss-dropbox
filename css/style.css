@@ -112,6 +112,7 @@ header nav {
     
 }
 
+/* nome piano  */
 .card-name {
     padding: 10px;
     text-align: center;
@@ -136,6 +137,7 @@ header nav {
     
 }
 
+/* card orizzontale */
 .card-large {
 display: flex;
 padding: 20px;
@@ -161,6 +163,7 @@ justify-content: space-between;
     
 
 }
+
 .card-large-btn{
     display: flex;
     flex-direction: column;
@@ -175,8 +178,6 @@ justify-content: space-between;
     display: flex;
     gap: 25px;
     align-items: center;
-    
-
 }
 
 .partner-text {
@@ -185,5 +186,18 @@ justify-content: space-between;
  gap: 10px;
 }
 
+
+/* quinta section */
+.feature-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+.feature-card {
+    flex-basis: calc(100% / 3 - 10px);
+}
 
 
